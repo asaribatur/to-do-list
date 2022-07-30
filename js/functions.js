@@ -16,14 +16,14 @@ function newElement() {
     li_DOM.innerHTML = `${newTask.value}<button type="button" onclick="deleteItem(this)" class="btn-close float-end" aria-label="Close"></button>`;
     li_DOM.setAttribute("onclick", "changeCls(this)");
     ul_DOM.appendChild(li_DOM);
-    toastImg_DOM.setAttribute("src", "/img/emoji-smile-upside-down.svg");
+    toastImg_DOM.setAttribute("src", "img/emoji-smile-upside-down.svg");
     toastTitle_DOM.classList.remove("text-danger");
     toastTitle_DOM.classList.add("text-success");
     toastTitle_DOM.innerText = "Bingo!";
     toastMsg_DOM.innerText = "Görev başarıyla listeye eklendi.";
     btnMarkAll.disabled = false;
   } else {
-    toastImg_DOM.setAttribute("src", "/img/emoji-dizzy.svg");
+    toastImg_DOM.setAttribute("src", "img/emoji-dizzy.svg");
     toastTitle_DOM.classList.remove("text-success");
     toastTitle_DOM.classList.add("text-danger");
     toastTitle_DOM.innerText = "O.. oooo!..";
