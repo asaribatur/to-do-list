@@ -38,14 +38,13 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container mt-3">
       <div class="header">
         <img
           src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
           class="mb-1"
-          alt=""
+          alt="Kodluyoruz"
         />
-
         <h2>
           <img
             src="img/journal-check.svg"
@@ -63,58 +62,60 @@
           <input type="submit" value="Ekle" id="liveToastBtn" class="button" />
         </form>
       </div>
+      <div class="row content mt-3">
+        <ul id="list">
+          <li onclick="changeCls(this)">
+            Sabah egzersizleri<button
+              type="button"
+              onclick="deleteItem(this)"
+              class="btn-close float-end"
+              aria-label="Close"
+            ></button>
+          </li>
+          <li onclick="changeCls(this)">
+            Güzel bir kahvaltı<button
+              type="button"
+              onclick="deleteItem(this)"
+              class="btn-close float-end"
+              aria-label="Close"
+            ></button>
+          </li>
+          <li onclick="changeCls(this)">
+            Gülümsemek<button
+              type="button"
+              onclick="deleteItem(this)"
+              class="btn-close float-end"
+              aria-label="Close"
+            ></button>
+          </li>
+          <li onclick="changeCls(this)">
+            Kitap okuma saati<button
+              type="button"
+              onclick="deleteItem(this)"
+              class="btn-close float-end"
+              aria-label="Close"
+            ></button>
+          </li>
+          <li onclick="changeCls(this)">
+            Duolingo ve Voscreen<button
+              type="button"
+              onclick="deleteItem(this)"
+              class="btn-close float-end"
+              aria-label="Close"
+            ></button>
+          </li>
+          <li onclick="changeCls(this)">
+            Star Wars serisinden birkaç bölüm
+            <button
+              type="button"
+              onclick="deleteItem(this)"
+              class="btn-close float-end"
+              aria-label="Close"
+            ></button>
+          </li>
+        </ul>
+      </div>
 
-      <ul id="list">
-        <li onclick="changeCls(this)">
-          Sabah egzersizleri<button
-            type="button"
-            onclick="deleteItem(this)"
-            class="btn-close float-end"
-            aria-label="Close"
-          ></button>
-        </li>
-        <li onclick="changeCls(this)">
-          Güzel bir kahvaltı<button
-            type="button"
-            onclick="deleteItem(this)"
-            class="btn-close float-end"
-            aria-label="Close"
-          ></button>
-        </li>
-        <li onclick="changeCls(this)">
-          Gülümsemek<button
-            type="button"
-            onclick="deleteItem(this)"
-            class="btn-close float-end"
-            aria-label="Close"
-          ></button>
-        </li>
-        <li onclick="changeCls(this)">
-          Kitap okuma saati<button
-            type="button"
-            onclick="deleteItem(this)"
-            class="btn-close float-end"
-            aria-label="Close"
-          ></button>
-        </li>
-        <li onclick="changeCls(this)">
-          Duolingo ve Voscreen<button
-            type="button"
-            onclick="deleteItem(this)"
-            class="btn-close float-end"
-            aria-label="Close"
-          ></button>
-        </li>
-        <li onclick="changeCls(this)">
-          Star Wars serisinden birkaç bölüm
-          <button
-            type="button"
-            onclick="deleteItem(this)"
-            class="btn-close float-end"
-            aria-label="Close"
-          ></button>
-        </li>
-      </ul>
       <div>
         <button
           onclick="markAll()"
