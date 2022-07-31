@@ -40,8 +40,8 @@ function newElement() {
     toastTitle.classList.remove("text-success");
     toastTitle.classList.remove("text-primary");
     toastTitle.classList.add("text-danger");
-    toastTitle.innerText = "OoOoo!..";
-    toastMsg.innerText = "Olmayan bir görevi yapamazsın";
+    toastTitle.innerText = "Heeyy !";
+    toastMsg.innerText = "Olmayan bir görevi yapamazsın!";
   }
   const toast = new bootstrap.Toast(toastLive);
   toast.show();
