@@ -13,11 +13,12 @@ ul {
 }
 
 ul li {
+  font-family: "Indie Flower", cursive;
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
   background: #eee;
-  font-size: 18px;
+  font-size: 22px;
   transition: 0.2s;
   list-style-type: none;
 
@@ -52,6 +53,10 @@ ul li.checked::before {
   transform: rotate(45deg);
   height: 15px;
   width: 7px;
+}
+
+ul li button {
+  font-size: medium;
 }
 
 .close {
